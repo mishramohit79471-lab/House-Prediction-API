@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>House Price Predictor</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🏠 House Price Predictor</h1>
+
+        <p class="subtitle">
+            Enter house details to estimate its price
+        </p>
+
+        <form id="predictionForm">
+
+            <div class="form-group">
+                <label>Median Income</label>
+                <input type="number" step="any" id="MedInc" placeholder="Example: 8.3252" required>
+            </div>
+
+            <div class="form-group">
+                <label>House Age</label>
+                <input type="number" step="any" id="HouseAge" placeholder="Example: 41" required>
+            </div>
+
+            <div class="form-group">
+                <label>Average Rooms</label>
+                <input type="number" step="any" id="AveRooms" placeholder="Example: 6.984" required>
+            </div>
+
+            <div class="form-group">
+                <label>Average Bedrooms</label>
+                <input type="number" step="any" id="AveBedrms" placeholder="Example: 1.023" required>
+            </div>
+
+            <div class="form-group">
+                <label>Population</label>
+                <input type="number" step="any" id="Population" placeholder="Example: 322" required>
+            </div>
+
+            <div class="form-group">
+                <label>Average Occupancy</label>
+                <input type="number" step="any" id="AveOccup" placeholder="Example: 2.555" required>
+            </div>
+
+            <div class="form-group">
+                <label>Latitude</label>
+                <input type="number" step="any" id="Latitude" placeholder="Example: 37.88" required>
+            </div>
+
+            <div class="form-group">
+                <label>Longitude</label>
+                <input type="number" step="any" id="Longitude" placeholder="Example: -122.23" required>
+            </div>
+
+            <button type="submit">
+                Predict House Price
+            </button>
+
+        </form>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
