@@ -249,9 +249,7 @@ Possible improvements include:
 
 👨‍💻 Author
 
-Your Name
-
-GitHub: "https://github.com/your-username"
+Mohit Mishra 
 
 📄 License
 
